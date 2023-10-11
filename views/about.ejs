@@ -1,0 +1,33 @@
+<!-- about.ejs | Ignacio Arce | 301264338 | 10/10/2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+</head>
+<body>
+  <!-- Navigation bar -->
+  <%- include('partials/header') %>
+
+  <div class="align">
+    <img src="/images/me.jpg" alt="Ignacio Arce" />
+
+    <div id="intro">
+
+      <h1>About Me</h1>
+      <h2>Legal Name: Ignacio Arce</h2>
+      <p>
+        Ever since I discovered programming, it has become a passion that I continually nurture and develop. I believe that the beauty of coding lies in its ability to create, innovate, and solve problems.
+      </p>
+      <p>
+        I hail from Costa Rica, a country renowned for its stunning beaches and breathtaking views. The vibrancy and diversity of my homeland have greatly influenced my perspective and approach towards life and learning.
+      </p>
+      <p>
+        As a software engineering student, I am constantly exploring new technologies and honing my skills. For a more detailed look at my academic and professional journey, feel free to download my <a href="resume.pdf" target="_blank">resume</a>. It provides a comprehensive overview of my skills, experiences, and accomplishments.
+      </p>
+    </div>
+  </div>
+  <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* Navigation Bar Styles */
+#navbar {
+  background-color: #0082FF; /* Grey background color */
+  display: flex;
+  justify-content: space-between; /* Logo on the left, nav on the right */
+  align-items: center; /* Center vertically */
+  height:10vh;
+}
+h1{
+  margin:0;
+}
+p{
+  margin-top: 30px;
+}
+
+.align{     
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:30px;
+    margin-bottom: 8%;
+    display:flex;
+    width:80%;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+#intro{
+  transform: scale(1, 0.9);
+  line-height: 2;
+  color:rgb(51, 51, 51);  
+  text-align: center;
+  max-width:650px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#intro-l{
+  transform: scale(1, 0.9);
+  line-height: 2;
+  color:rgb(51, 51, 51);  
+  text-align: center;
+  max-width:650px;
+  margin-right: 70px;
+}
+#services{
+  transform: scale(1, 0.9);
+  line-height: 2;
+  color:rgb(51, 51, 51);  
+  text-align: center;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Logo Styles */
+img {
+  height: auto;
+  width: 25vw; /* Adjust the size of your logo */
+  border-radius: 10px;
+}
+
+/* Navigation Links Styles */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 20px; /* Adjust the spacing between nav items */
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white; /* Dark red color for links */
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+#navbar a:hover {
+  color: black; /* White color on hover */
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+  margin: 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.content{
+  width:65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
+}
+
+/* Contact Page Styles */
+.contact-info {
+  width: 30%; /* Set the width to 70% of the parent container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to your contact content */
+  background-color: #f9f9f9; /* Background color for the contact container */
+  border: 1px solid #ddd; /* Add a border for separation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.contact-form{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  height: 20px;          /* Makes the input box taller */
+  border-radius: 8px;   /* Gives the input box rounded corners */
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!-- projects.ejs | Ignacio Arce | 301264338 | 10/10/2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+</head>
+<body>
+  <!-- Navigation bar -->
+  <%- include('partials/header') %>
+
+  <br><h1>Projects:</h1>
+
+  <div class="align">    
+      <img src="/images/project1ex.png">
+      <div id="intro">
+        <h2>First Project</h2>
+        <h3>Real Estate Website</h3>
+        <p>
+          I am excited to showcase one of my past projects – an HTML website I crafted for a fictitious Real Estate platform. This innovative website features three distinct properties, each brought to life with interactive images, engaging descriptions, and a seamless connection to Google Maps. This project, personally developed by me, Ignacio Arce, comprises a diverse range of web pages. It all begins with the inviting home page, where we introduce our fictional realtor, followed by dedicated pages for each of the three unique property listings. Furthermore, the website provides a user-friendly contact page, complete with a convenient form for connecting with the brokerage, and a comprehensive sitemap for effortless navigation.
+        </p>
+      </div>
+  </div>
+  <div class="align">
+    <div id="intro-l">
+      <h2>Second Project</h2>
+      <h3>Porsche GT3 Informative Page</h3>
+      Allow me to present another of my past projects, the Porsche GT3 website. This HTML-based masterpiece is dedicated to showcasing the stunning sports car, Porsche GT3, and its remarkable key features, accompanied by concise, enticing descriptions. A standout feature of this project is the interactive map at the bottom of the page. Here, users can click on any province of Canada, and they will be seamlessly redirected to the respective Porsche website for that specific province. As the creator of this web gem, I aimed to provide an immersive experience for automotive enthusiasts and make accessing regional Porsche resources a breeze.
+    </div>
+    <img src="/images/project2ex.png">
+  </div>
+  <div class="align">
+    <img src="/images/project3ex.png">
+    <div id="intro">
+      <h2>Third Project</h2>
+      <h3>Coffee Shop GUI</h3>
+      <p>
+        I take immense pride in showcasing my project, a Coffee Shop Graphical User Interface (GUI) developed in C#. This comprehensive and fully functional software stands as a versatile digital solution for coffee shops, offering an array of features to streamline their daily operations. It empowers users with the ability to effortlessly add customers to the program and personalize their orders with a wide selection of items. Designed to enhance the efficiency of coffee shop management and elevate the overall customer experience, this project is a testament to my commitment to creating intuitive, user-friendly interfaces that bridge the gap between technology and practicality.
+      </p>
+    </div>
+  </div>
+  <%- include('partials/footer') %>
+</body>
+</html>

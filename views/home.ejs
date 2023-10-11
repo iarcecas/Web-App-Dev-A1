@@ -1,0 +1,32 @@
+<!-- home.ejs | Ignacio Arce | 301264338 | 10/10/2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <%- include('partials/header') %>
+
+  <div class="content">
+    <h1>Welcome to my Portfolio!</h1>
+    <br>
+    <p>
+      I'm Ignacio Arce, a third-semester Software Engineering Student at Centennial College. I discovered my passion for programming in the beautiful country of Costa Rica, my home. You can learn more about me on the 'About Me' page, where you'll also find a link to my resume.
+    </p>
+    <p>
+      On the Projects page, you'll find three of my notable projects. The first is a Real Estate Website with interactive images and Google Maps integration. The second is a Porsche GT3 Website that provides key features of the sports car and redirects users to local Porsche websites. The third is a Coffee Shop GUI developed in C# that simulates the operations of a coffee shop. Each project is accompanied by an image and a brief description of my role and the project outcome.
+    </p>
+    <p>
+      If you're looking for software development services, you're in the right place. I offer a wide range of services from Web Development to Mobile Application Development. After a couple of initial meetings to gather necessary information, I can deliver the first version of your application within weeks (though timelines may vary depending on the size of the app).
+    </p>
+    <p>
+      Finally, if you wish to get in touch with me, head over to the 'Contact' page. Here, you'll find my contact information and an interactive form that allows you to send me a message along with your basic contact information. Although the form isn't fully functional, it captures all entered information and redirects you back to the home page. Explore my website to learn more about my journey and offerings!
+    </p>
+  
+    <a href="about">Learn More About Me</a>
+  </div>
+  <%- include('partials/footer') %>
+</body>
+</html>
